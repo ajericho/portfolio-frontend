@@ -3,10 +3,10 @@ import styled from "styled-components";
 export const ExperienceContainer = styled.div`
     background-color:${props => props.theme.beigeLight};
     border:1px solid${props => props.theme.beige};
-    padding:20px 8%;
+    padding:20px 5%;
     margin-bottom:50px;
     margin-left:15px;
-    width:32%;
+    width:42%;
     @media screen and (max-width: 1140px) {
         width:auto;
 
@@ -19,6 +19,7 @@ export const ExperienceContainer = styled.div`
         margin-top:20px;
         margin-bottom:10px;
         color:${props => props.theme.secondary};
+        font-weight:600px;
     }
     h4 {
         color:${props => props.theme.primary};
