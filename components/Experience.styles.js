@@ -5,6 +5,13 @@ export const ExperienceContainer = styled.div`
     border:1px solid${props => props.theme.beige};
     padding:20px 8%;
     margin-bottom:50px;
+    margin-left:15px;
+    width:32%;
+    @media screen and (max-width: 1140px) {
+        width:auto;
+
+    }
+
     div {
         margin-bottom:15px;
     }

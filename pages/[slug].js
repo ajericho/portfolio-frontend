@@ -28,16 +28,15 @@ const SinglePage = ({ page, pages }) => {
       <FadeIn> 
         <PageBody>
 
-      <PageLeft>
-      <Image image={page.featuredImage} />  
-      </PageLeft>
-      <PageRight>
+
             <MarkdownView markdown={markdown} />
+            <FlexContainer>   
             { page.experiences.length >= 1  ? 
                 page.experiences.map(item => 
                     <Experience key={item.id} experience={item} /> 
                     ) 
                     : ''}   
+             </FlexContainer>
             <FlexContainer>     
             { page.skills.length >= 1  ? 
                 page.skills.map(item => 
@@ -45,7 +44,7 @@ const SinglePage = ({ page, pages }) => {
                     ) 
                     : ''}
              </FlexContainer>     
-      </PageRight>
+
       </PageBody>
 
       </FadeIn>

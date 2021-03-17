@@ -3,12 +3,17 @@ import styled from "styled-components";
 export const FlexContainer = styled.section`
     display:flex;
     flex-wrap:wrap;
+    justify-content:space-between;
+    margin-left:-15px;
+    @media screen and (max-width: 1140px) {
+        flex-direction:column;
 
+    }
 
 
 `;
 export const PageContainer = styled.section`
-    padding:10px 3% 20px 0; 
+    padding:10px 5% 20px 5%; 
     h1 {
         color: ${props => props.theme.secondary};
         text-align:right;
@@ -27,9 +32,7 @@ export const PageContainer = styled.section`
 `;
 
 export const PageBody = styled.div`
-    display:flex;
-    justify-content:center;
-    align-items:flex-start;
+
 
 
 
