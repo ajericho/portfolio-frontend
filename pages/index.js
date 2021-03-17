@@ -1,10 +1,10 @@
 import React from "react";
-import { HeroContainer, RightHero, LeftHero } from "../components/HomeHero.styles";
-import FadeIn from "../components/FadeIn.styles";
-import Layout from "../components/layout";
+import { HeroContainer, RightHero, LeftHero } from "../components/modules/HomeHero.styles";
+import FadeIn from "../components/elements/FadeIn.styles";
+import Layout from "../components/templates/layout";
 import Seo from "../components/seo";
-import Image from "../components/image";
-import Social from "../components/social";
+import Image from "../components/elements/image";
+import Social from "../components/modules/social";
 import { fetchAPI } from "../lib/api";
 
 import { GlobalStyle } from "../assets/css/GlobalSyles";

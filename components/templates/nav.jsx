@@ -1,8 +1,8 @@
 import React from "react";
 import Link from "next/link";
-import NavLink from './NavLink';
+import NavLink from '../elements/NavLink';
 import { useContext } from "react";
-import { GlobalContext } from "../pages/_app";
+import { GlobalContext } from "../../pages/_app";
 
 
 

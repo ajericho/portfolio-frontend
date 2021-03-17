@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const ExperienceContainer = styled.div`
     background-color:${props => props.theme.beigeLight};
     border:1px solid${props => props.theme.beige};
-    padding:20px 5%;
+    padding:20px 3%;
     margin-bottom:50px;
     margin-left:15px;
     width:42%;

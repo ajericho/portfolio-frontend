@@ -1,14 +1,14 @@
 
 import { fetchAPI } from "../lib/api";
-import Image from "../components/image";
-import Experience from "../components/experience";
-import Skill from "../components/skill";
-import Layout from "../components/layout";
+import Image from "../components/elements/image";
+import Experience from "../components/modules/experience";
+import Skill from "../components/modules/skill";
+import Layout from "../components/templates/layout";
 import Seo from "../components/seo";
 import MarkdownView from 'react-showdown';
-import FadeIn from '../components/FadeIn.styles';
+import FadeIn from '../components/elements/FadeIn.styles';
 
-import { FlexContainer, PageContainer, PageRight, PageLeft, PageBody } from "../components/PageLayout.styles";
+import { FlexContainer, PageContainer, PageBody } from "../components/templates/PageLayout.styles";
 
 
 const SinglePage = ({ page, pages }) => {
