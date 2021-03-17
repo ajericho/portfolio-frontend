@@ -12,7 +12,7 @@ app
   .then(() => {
     const server = express();
 
-    server.get("/pages/[slug]", (req, res) => {
+    server.get("/pages/:id", (req, res) => {
       const actualPage = "/[slug]";
       const queryParams = { id: req.params.id };
       console.dir("req.params.id = " + JSON.stringify(req.params.id));
